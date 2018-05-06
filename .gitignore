@@ -1,1 +1,3 @@
 *.pyc
+backend/db.sqlite3
+backend/snippets/migrations/
