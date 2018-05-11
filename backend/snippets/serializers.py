@@ -12,7 +12,8 @@ class SnippetSerializer(serializers.ModelSerializer):
                     'linenos',
                     'language',
                     'style',
-                    'owner',)
+                    'owner',
+                    )
 
 class UserSerializer(serializers.ModelSerializer):
     snippets = serializers.PrimaryKeyRelatedField(many=True,
